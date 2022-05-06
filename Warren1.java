@@ -31,12 +31,10 @@ public class Warren1{
  
         for(n = 0; n < 1000000; n++){
             int soma = n + reverso(n);
-                if( n % 10 != 0){
-                    if(soma % 2 != 0){ 
-                        if(verificaImpares(soma) == true){
+                if( n % 10 != 0){ 
+                    if(verificaImpares(soma) == true){
                         System.out.println(n);
                         tamanho++; 
-                        }
                     }
                 }
             }
