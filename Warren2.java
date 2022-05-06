@@ -37,7 +37,7 @@ public class Warren2 {
         if(atraso > x){
             System.out.println("Aula cancelada.");
         }else{
-            System.out.println("Aula normal.");
+            System.out.println("Aula normal, " + normal + " alunos chegaram a tempo para a aula e, " + atraso + " chegaram atrasados.");
         }
    
     }
