@@ -35,7 +35,7 @@ public class Warren2 {
                 + Arrays.toString(chegada));
         
         if(atraso > x){
-            System.out.println("Aula cancelada.");
+            System.out.println("Aula cancelada, " + normal + " alunos chegaram a tempo para a aula e, " + atraso + " chegaram atrasados");
         }else{
             System.out.println("Aula normal, " + normal + " alunos chegaram a tempo para a aula e, " + atraso + " chegaram atrasados.");
         }
