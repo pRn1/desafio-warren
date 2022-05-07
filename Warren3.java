@@ -89,8 +89,7 @@ public class Warren3{
         tamanhoVetor = leitor.nextInt();
         
         for(int i = 0; i < tamanhoVetor; i++){
-            System.out.println("Informe a " + (posicao + 1) + 
-                               " ª posicao do vetor.");
+            System.out.println("Informe a " + (posicao + 1) + " ª posicao do vetor.");
             digitos.add(leitor.nextInt());
             posicao++;
         
