@@ -38,6 +38,6 @@ public class Warren1{
                     }
                 }
             }
-        System.out.println(tamanho);  
+        System.out.println("Foram encontrados, " + tamanho + " numeros que satisfazem o desafio."); 
     }     
   }
