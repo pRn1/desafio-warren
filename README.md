@@ -22,7 +22,7 @@
 - Como solução da problemática, foi implementado e pensado um código que primariamente, solicita um número n que será utilizado como o objetivo da soma dos dígitos do vetor, e solicitada a quantidade de números a serem utilizados para construir o vetor, bem como os respectivos valores;
 - Com os dados de entrada alocados e dessa forma n e o vetor definido, é chamada uma função **solucao** que irá verificar todas as opções possíveis de se somar e alcançar o valor n;
 - A função **solucao** funciona alocando o menor digito do vetor inicial em um vetor secundario até que a soma interna deste vetor secundário seja n ou próxima de n. Com o vetor secundario montado, o primeiro digito deste vetor é substituído pelo segundo dígito do vetor inicial até que este se aproxime do valor de n. E assim ocorre suscessivamente substituindo as posições no vetor secundário por valores maiores do vetor inicial;
-- A alocação no vetor secundário é feita até que o vetor secundário seja composto apenas pelo maior valor do vetor inicial e a soma se apoxime de n, portanto um vetor inicial {2, 3, 4} terá a alocação terminada quando o vetor secundário for {4, 4, 4};
+- A alocação no vetor secundário é feita até que o vetor secundário seja composto apenas pelo maior valor do vetor inicial e a soma se apoxime de n, portanto um vetor inicial {2, 3, 4} com n igual a 10 terá a alocação terminada quando o vetor secundário for {4, 4, 4};
 Ao final da alocação, a função **solucao** verifica e retorna apenas o vetor secundário que tiver o menor número de elementos e sua soma resulte em n, ou seja, um vetor {2, 3, 4} e um n igual a 10, retornará como dado de saída vetores {4, 3, 3} e {4, 4, 2} por estes serem de mesmo tamanho e terem soma igual a n.
 
 
